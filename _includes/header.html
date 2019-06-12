@@ -6,7 +6,7 @@
         <ul>
             {%- for item in site.data.navigation.nav.header -%}
                 <li>
-                    <a href="{{item.url}}">{{item.name}}</a>
+                    <a href="{{item.url | prepend: site.baseurl }}">{{item.name}}</a>
                 </li>                
             {%- endfor -%}
             
