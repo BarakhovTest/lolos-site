@@ -1,0 +1,8 @@
+nav:
+  header:
+    - item:
+      name: Home
+      url: /
+    - item:
+      name: News
+      url: /news

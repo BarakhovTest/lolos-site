@@ -1,0 +1,15 @@
+<header>
+    <h1>
+        Lolo's
+    </h1>
+    <nav>
+        <ul>
+            {%- for item in site.data.navigation.nav.header -%}
+                <li>
+                    <a href="{{item.url}}">{{item.name}}</a>
+                </li>                
+            {%- endfor -%}
+            
+        </ul>
+    </nav>
+</header>
