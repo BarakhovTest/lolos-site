@@ -1,2 +1,4 @@
-# lolos-site
-lolos test site
+# START
+
+/lolos-site
+$ jekyll serve --watch --baseurl ""
